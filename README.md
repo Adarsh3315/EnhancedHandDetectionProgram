@@ -1,7 +1,7 @@
 # **Enhanced Hand Detection Program**  
 ### **YouTube Demonstration**  
    - Check out the live demonstration of this program on YouTube:  
-👉 [Hand Tracking & Brightness Control System Demo](https://youtu.be/hZsAZHBGu8s?si=pbSjDZnhu7XyD5XA)
+👉 [Enhanced Hand Detection Program Demo](https://youtu.be/hZsAZHBGu8s?si=pbSjDZnhu7XyD5XA)
 
 ### **Overview**  
 The **Enhanced Hand Detection Program** is an advanced real-time hand detection application built using Python, OpenCV, and Mediapipe. It detects left and right hands, identifies whether one or both hands are visible in the frame, and highlights hand landmarks using colored circles.  
