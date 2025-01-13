@@ -1,15 +1,12 @@
-### **Enhanced Hand Detection Program**  
-**Developed By:** A&J  
-**YouTube Demo Video Link:** [Watch the Demo](https://youtu.be/hZsAZHBGu8s?si=pbSjDZnhu7XyD5XA)  
+# **Enhanced Hand Detection Program**  
+### **YouTube Demonstration**  
+   - Check out the live demonstration of this program on YouTube:  
+👉 [Hand Tracking & Brightness Control System Demo](https://youtu.be/hZsAZHBGu8s?si=pbSjDZnhu7XyD5XA)
 
----
-
-#### **Overview**  
+### **Overview**  
 The **Enhanced Hand Detection Program** is an advanced real-time hand detection application built using Python, OpenCV, and Mediapipe. It detects left and right hands, identifies whether one or both hands are visible in the frame, and highlights hand landmarks using colored circles.  
 
 The graphical interface is developed using Tkinter, making it user-friendly and interactive.
-
----
 
 ### **Features**  
 1. **Real-Time Hand Detection:**  
@@ -27,11 +24,8 @@ The graphical interface is developed using Tkinter, making it user-friendly and 
 4. **Error Handling:**  
    - Ensures smooth program execution with built-in exception handling.  
 
----
-
 ### **How It Works**  
-
-#### **Hand Detection Logic**  
+### **Hand Detection Logic**  
 - Uses Mediapipe's `Hands` solution to detect and process hand landmarks.  
 - For each detected hand:  
   - Identifies if the hand is "Left" or "Right" using the classification label.  
@@ -39,19 +33,16 @@ The graphical interface is developed using Tkinter, making it user-friendly and 
 - If both hands are visible:  
   - Displays "Both Hands" at the top of the video frame.  
 
-#### **GUI Design**  
+### **GUI Design**  
 - The interface is designed with Tkinter and includes:  
   - A **video feed area** for displaying processed frames.  
   - **Start Video** and **Stop Video** buttons for video control.  
   - A **footer label** acknowledging the developers.  
 
-#### **Video Feed Integration**  
+### **Video Feed Integration**  
 - The program captures video from the default webcam (`cv2.VideoCapture(0)`), processes each frame to detect hands, and updates the video feed dynamically in the Tkinter window.
 
----
-
 ### **Usage Guide**  
-
 1. **Starting the Program:**  
    - Run the Python script to launch the GUI.  
 
@@ -65,27 +56,13 @@ The graphical interface is developed using Tkinter, making it user-friendly and 
    - Close the program window or click the "X" button to exit the application.  
    - The program releases the webcam and closes all OpenCV windows upon exit.  
 
----
-
-### **Dependencies**  
-Make sure the following libraries are installed in your Python environment:  
-
-- **OpenCV:** `pip install opencv-python`  
-- **Mediapipe:** `pip install mediapipe`  
-- **Pillow:** `pip install pillow`  
-
----
-
 ### **System Requirements**  
 - A working webcam.  
 - Python 3.x installed.  
 - Compatible with Windows, macOS, or Linux.  
 
----
-
 ### **Code Summary**  
-
-#### **Key Functions:**  
+### **Key Functions:**  
 1. **`process_frame()`**  
    - Captures a frame from the webcam.  
    - Processes the frame to detect hand landmarks using Mediapipe.  
@@ -100,8 +77,10 @@ Make sure the following libraries are installed in your Python environment:
 4. **`on_closing()`**  
    - Handles the program's exit by stopping video capture and releasing resources.  
 
----
+### **Contribution**
+Feel free to fork the repository, submit issues, or suggest improvements. Contributions are always welcome!
 
-### **YouTube Demonstration**  
-Check out the live demonstration of this program on YouTube:  
-👉 [Enhanced Hand Detection Program Demo](https://youtu.be/hZsAZHBGu8s?si=pbSjDZnhu7XyD5XA)  
+### **License**
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Developed by **A&J** as part of the Multimodal System.
